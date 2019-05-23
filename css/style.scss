@@ -1,7 +1,23 @@
 
-h1  {
-    border: 1px solid pink;
-    color: pink;
+@import "mixin";
+@import "variables";
+
+
+#header-section {
+    background: $page_bg_color;
+    height: 85px;
+    position: relative;
     text-align: center;
-    padding: 20px;
+    padding-top: 23px;
+
+    p {
+        color: #ffffff;
+    }
+
+    img {
+        position: absolute;
+        left: 50%;
+        top: 56px;
+        margin-left: -44px;
+    }
 }

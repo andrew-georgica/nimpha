@@ -1,7 +1,20 @@
-h1 {
-  border: 1px solid pink;
-  color: pink;
+/* Colors */
+#header-section {
+  background: #3BC059;
+  height: 85px;
+  position: relative;
   text-align: center;
-  padding: 20px;
+  padding-top: 23px;
+}
+
+#header-section p {
+  color: #ffffff;
+}
+
+#header-section img {
+  position: absolute;
+  left: 50%;
+  top: 56px;
+  margin-left: -44px;
 }
 /*# sourceMappingURL=style.css.map */
