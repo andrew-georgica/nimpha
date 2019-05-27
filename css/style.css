@@ -1,20 +1,127 @@
 /* Colors */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
 #header-section {
   background: #3BC059;
-  height: 85px;
+  height: 15%;
   position: relative;
   text-align: center;
   padding-top: 23px;
 }
 
-#header-section p {
+#header-section h6 {
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.125em;
 }
 
 #header-section img {
   position: absolute;
   left: 50%;
-  top: 56px;
+  top: 60%;
   margin-left: -44px;
+}
+
+#content-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 85%;
+  padding-bottom: 85px;
+}
+
+#content-section #wrapper {
+  width: auto;
+}
+
+#content-section #wrapper p {
+  color: #6B6B6B;
+  font-family: "Roboto", sans-serif;
+  font-size: .875em;
+  text-align: center;
+  margin: 56px auto 0 auto;
+  width: 320px;
+}
+
+#content-section #wrapper h6 {
+  color: #6B6B6B;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  width: 312px;
+  text-align: center;
+  margin: 25px auto 0 auto;
+}
+
+#content-section #wrapper #form-section {
+  margin-top: 25px;
+}
+
+#content-section #wrapper #form-section input[type="text"] {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  font-family: "Roboto", sans-serif;
+  font-size: .875em;
+  width: 100%;
+  outline: none;
+}
+
+#content-section #wrapper #form-section ::-webkit-input-placeholder {
+  /* Firefox, Chrome, Opera */
+  color: rgba(189, 189, 189, 0.71);
+}
+
+#content-section #wrapper #form-section :-ms-input-placeholder {
+  /* Firefox, Chrome, Opera */
+  color: rgba(189, 189, 189, 0.71);
+}
+
+#content-section #wrapper #form-section ::-ms-input-placeholder {
+  /* Firefox, Chrome, Opera */
+  color: rgba(189, 189, 189, 0.71);
+}
+
+#content-section #wrapper #form-section ::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: rgba(189, 189, 189, 0.71);
+}
+
+#content-section #wrapper #form-section :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(189, 189, 189, 0.71);
+}
+
+#content-section #wrapper #form-section ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(189, 189, 189, 0.71);
+}
+
+#content-section #wrapper #send-btn {
+  background: #3BC059;
+  border-radius: 8px;
+  color: #ffffff;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  width: 360px;
+  height: 60px;
+  padding-top: 12px;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
